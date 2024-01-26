@@ -36,6 +36,10 @@
                 color: white;
                 font-size: 30px;
             }
+            #result{
+                   color: white;
+                  margin-top: 20px;
+            }
       </style>
 </head>
 
@@ -81,6 +85,8 @@
                   }
 
                   alert(`you picked ${userMove} and computer picked ${computermove} and ${result}`);
+
+                   document.getElementById('result').innerText = `You picked ${userMove}, computer picked ${computermove}, and ${result}`;
             }
       </script>
 </body>
